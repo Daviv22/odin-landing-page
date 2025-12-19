@@ -1,14 +1,19 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*      HEADER SECTION      */
+
+.header,
+.hero {
+    background-color: #1F2937;
+    padding: 16px 208px;
+}
 
 ul {
     list-style-type: none;
@@ -18,8 +23,6 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 208px;
-    background-color: #1F2937;
 }
 
 .logo {
@@ -41,24 +44,28 @@ a {
 /*      HERO SECTION -- TO FIX LATER!*/
 
 .hero {
-    background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 112px 0;
+    gap: 32px;
 }
 
 button {
-    padding: 7px 1em;
+    padding: 7px 16px;
     width: 120px;
     background-color: #3882F6;
     border-radius: 8px;
 }
 
-.hero-left {
+.hero .hero-left {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+.hero .hero-right {
+    flex-shrink: 0;
+    width: 50%;
 }
 
 .hero-left h1 {
@@ -73,17 +80,14 @@ button {
 }
 
 .hero-left button {
-    max-width: 25%;
-    background-color: #3882F6;
-    color: white;
-    padding: 4px;
-    border-radius: 8px;
     border: none;
 }
 
 .hero-image img {
-    max-width: 50%;
-    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
 }
 
 /*      INFO SECTION -- ALSO NEED FIXING!        */

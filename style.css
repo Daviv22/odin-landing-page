@@ -85,10 +85,13 @@ button {
 }
 
 .hero-image img {
+    background-color: gray;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 215px;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
 }
 
 /*      INFO SECTION -- ALSO NEED FIXING!        */

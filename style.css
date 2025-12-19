@@ -35,4 +35,17 @@ a {
 
 .hero {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-image img {
+    max-width: 50%;
+    height: auto;
 }

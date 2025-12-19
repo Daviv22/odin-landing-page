@@ -8,6 +8,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+/*      HEADER SECTION      */
+
 ul {
     list-style-type: none;
 }
@@ -33,10 +35,14 @@ a {
     gap: 16px;
 }
 
+/*      HERO SECTION -- TO FIX LATER!*/
+
 .hero {
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 32px;
 }
 
 .hero-left {
@@ -45,7 +51,29 @@ a {
     gap: 12px;
 }
 
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.hero-left button {
+    max-width: 25%;
+    background-color: #3882F6;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    border: none;
+}
+
 .hero-image img {
     max-width: 50%;
     height: auto;
 }
+
+/*      INFO SECTION*/

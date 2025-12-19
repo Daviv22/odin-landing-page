@@ -41,7 +41,7 @@ a {
     gap: 24px;
 }
 
-/*      HERO SECTION -- TO FIX LATER!*/
+/*      HERO SECTION        */
 
 .hero {
     padding: 112px 0;
@@ -95,7 +95,7 @@ button {
     object-fit: contain;
 }
 
-/*      INFO SECTION -- ALSO NEED FIXING!        */
+/*      INFO SECTION        */
 
 .info {
     display: flex;

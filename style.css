@@ -9,8 +9,7 @@ body {
 
 /*      HEADER SECTION      */
 
-.header,
-.hero {
+.header-and-hero {
     background-color: #1F2937;
     padding: 16px 208px;
 }
@@ -28,6 +27,7 @@ ul {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 a {
@@ -38,12 +38,13 @@ a {
 
 .right-links {
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 /*      HERO SECTION -- TO FIX LATER!*/
 
 .hero {
+    padding: 112px 0;
     display: flex;
     justify-content: center;
     align-items: center;

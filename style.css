@@ -114,3 +114,25 @@ a {
     object-fit: cover;
     display: block;
 }
+
+/*      QUOTE SECTION -- ALSO NEED FIXING!       */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.phrase,
+.answer {
+    font-size: 36px;
+    color: #1F2937;
+}
+.phrase {
+    font-style: italic;
+}
+.author {
+    font-weight: 300;
+    text-align: right;
+}

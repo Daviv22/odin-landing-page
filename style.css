@@ -32,3 +32,7 @@ a {
     display: flex;
     gap: 16px;
 }
+
+.hero {
+    display: flex;
+}

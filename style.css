@@ -56,6 +56,7 @@ button {
     width: 120px;
     background-color: #3882F6;
     border-radius: 8px;
+    color: #F9FAF8;
 }
 
 .hero .hero-left {
@@ -179,20 +180,23 @@ button {
 .call-to-action {
     display: flex;
     justify-content: center;
-    padding: 36px;
+    align-items: center;
+    padding: 80px 208px;
 }
 
 .container-cta {
     background-color: #3882F6;
     border-radius: 8px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-direction: row;
     color: #F9FAF8;
-    padding: 26px 56px;
-    gap: 16px;
+    padding: 48px;
+    width: 100%;
 }
 
-.cta-left-text {
+.cta-left {
     display: flex;
     flex-direction: column;
 }
@@ -200,7 +204,7 @@ button {
 .container-cta button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border: 1px solid #F9FAF8;
+    border: 2px solid #F9FAF8;
     border-radius: 4px;
 }
 

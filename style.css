@@ -96,8 +96,15 @@ button {
 
 /*      INFO SECTION -- ALSO NEED FIXING!        */
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 208px;
+    margin-top: 48px;
+}
+
 .info h2 {
-    text-align: center;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -106,24 +113,33 @@ button {
 .container-info {
     display: flex;
     flex-direction: row;
-    gap: 16px;
-    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 48px 0 96px 0;
+    gap: 56px;
 }
 
 .card-info {
+    text-align: center;
+    max-width: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    gap: 10px;
+}
+
+.card-info p {
+    max-width: 150px;
 }
 
 .card-info-img {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     object-fit: contain;
     border: 3px solid #3882F6;
     overflow: hidden;
-    border-radius: 10%;
+    border-radius: 20px;
 }
 
 .card-info-img img {
@@ -138,21 +154,25 @@ button {
 .quote {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #E5E7EB;
-    padding: 150px;
+    padding: 112px 208px;
 }
 
 .phrase,
 .answer {
-    font-size: 36px;
     color: #1F2937;
 }
 .phrase {
+    font-size: 36px;
+
     font-style: italic;
 }
 .author {
-    font-weight: 300;
+    align-self: flex-end;
+    font-weight: bolder;
     text-align: right;
+    font-size: 24px;
 }
 
 /*      CALL TO ACTION      */
